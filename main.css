@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8";
+@font-face {
+    font-family: Quicksand;
+    src: url('Quicksand-Regular.woff') format('woff')
+         url('Quicksand-Regular.ttf') format('truetype');
+}
+
+body {
+    color: rgba(37, 195, 19, 0.703);
+    background-color: rgb(170, 221, 237);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h1 {font-size: 2.5em;}
+h2 {font-size: 2.5em;}
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+aside blockquote {
+    color: rgb(5, 58, 60)
+}
+
+nav > ul {
+    line-height: 2em;
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+section {background-color:rgb(213, 249, 234);
+        width: 75%;
+        font-size: 1.2em;}
+
+body> footer address {
+    background-color: rgb(6, 72, 60);
+    color: rgba(228, 104, 104, 0.7);
+    font: normal small-caps bold 0.9em/3em
+        Quicksand, Verdana, Geneva, sans-serif;
+    text-align: center;
+    
+}
